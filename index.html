@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="FORMCSS.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ФОРМА</title> 
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head> 
+<body> 
+    <h1>Моя анкета</h1>
+<form>  
+    <fieldset>
+        <legend>Контактная инфа</legend>
+    <input placeholder="Введите имя"  type="text" > <br>
+    <input placeholder="Введите номер телефона" type="number">  <br> 
+    <input placeholder="Введите email" type="email"> <br> 
+    </fieldset> 
+    <fieldset>
+        <legend>Личная инфа</legend> 
+        <label for="age">Сколько Тебе лет?</label>
+        <input id="age" type="number"> 
+        <label for="date">Дата ДР</label> 
+        <input id="date"  type="date"> 
+         <label  for="lesson">По какому курсу вы учетесь</label> 
+        <select id="lesson"  > 
+            
+            <option value="">Как Стать хомяком за 5 минут</option>
+            <option value="">Hello World</option>
+            <option value="">Homak World</option>
+        </select > 
+        
+        
+    </fieldset> 
+    <fieldset>
+        <legend>обратная связь</legend> 
+        <label for="">посоветуете ли вы на друзьям???</label> 
+        <label for="checed1">Да</label>
+        <input id="checed1" type="radio"> 
+        <label for="checed2">конечно</label>
+        <input id="checed2" type="radio"> 
+        <label for="checed3">Разве могут быть другие варианты?)))</label> 
+        <input id="checed3"  type="radio"> 
+        <textarea name="" id="" cols="10" rows="1000000000"></textarea>
+    </fieldset>
+</form>        
+</body>
+</html>
